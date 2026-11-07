@@ -1,0 +1,9 @@
+{
+  "title": {"vi": "Motion Studio", "en": "Motion Studio"},
+  "summary": {"vi": "Biên tập video theo lớp và chỉnh bằng prompt ngay trong Claude Desktop qua MCP Apps.", "en": "A layered video editor with prompt-based editing inside Claude Desktop via MCP Apps."},
+  "year": 2026, "tags": ["Video", "MCP", "Motion"],
+  "category": {"vi": "Công cụ sáng tạo", "en": "Creative tools"},
+  "status": "beta", "role": {"vi": "Thiết kế & phát triển", "en": "Design & development"},
+  "order": 5, "featured": false, "showcase": false, "access": "private",
+  "palette": ["#7c5dd9", "#efcab2", "#f3f3f7", "#26271f"]
+}

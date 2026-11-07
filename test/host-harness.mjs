@@ -1,0 +1,13 @@
+import {AppBridge,PostMessageTransport} from '@modelcontextprotocol/ext-apps/app-bridge';
+const frame=document.querySelector('iframe');
+window.rpcMethods=[];window.addEventListener('message',e=>{if(e.source===frame.contentWindow&&e.data?.method)window.rpcMethods.push(e.data.method);});
+const bridge=new AppBridge(null,{name:'Motion QA Host',version:'1'},{serverTools:{},logging:{},openLinks:{},downloadFile:{},message:{text:{}},updateModelContext:{}},{hostContext:{theme:'light',displayMode:'inline',availableDisplayModes:['inline','fullscreen'],containerDimensions:{width:1400,maxHeight:1000}}});
+bridge.oncalltool=async params=>{const res=await fetch('/call',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(params)});return res.json();};
+bridge.onupdatemodelcontext=async params=>{window.lastContext=params;return {};};
+bridge.onmessage=async params=>{window.lastMessage=params;return {};};
+bridge.ondownloadfile=async params=>{window.lastDownload=params;return {};};
+bridge.oninitialized=async()=>{await bridge.sendToolInput({arguments:{projectId:window.projectId}});await bridge.sendToolResult(await bridge.oncalltool({name:'open_video_editor',arguments:{projectId:window.projectId}}));window.ready=true;};
+bridge.onsizechange=({height})=>frame.style.height=`${Math.max(820,height||820)}px`;
+window.bridge=bridge;
+await bridge.connect(new PostMessageTransport(frame.contentWindow,frame.contentWindow));
+frame.src='/widget';

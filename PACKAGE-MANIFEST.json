@@ -1,0 +1,325 @@
+{
+  "name": "motion-studio-claude-code",
+  "version": "1.1.0",
+  "createdAt": "2026-11-07T10:35:18.821Z",
+  "sourceRevision": "8fded3d7cca0c0633f8ce98ab8b8f3b977987a45",
+  "sourceHasLocalChanges": false,
+  "note": "Checksums describe the exact files in this snapshot. Generated archives are intentionally not recursively included.",
+  "files": [
+    {
+      "file": ".claude/skills/video-studio/SKILL.md",
+      "bytes": 1472,
+      "sha256": "29357675d9f824877b142833aca7e36d1ac7a7d91f1449e2e4d687fc827cbcc5"
+    },
+    {
+      "file": ".gitignore",
+      "bytes": 198,
+      "sha256": "04916f2186d5237f6d1fea666f8db46ea48cdd0f8b00ce5d095f336ab88e1c4f"
+    },
+    {
+      "file": ".mcp.json.example",
+      "bytes": 165,
+      "sha256": "feee9a0a3bd884e0300bf1936cd4f090b5fd5410a49203fe88b2c40cd5052ce3"
+    },
+    {
+      "file": "app/index.html",
+      "bytes": 1009568,
+      "sha256": "bdc9c3ffc81de337554f42f8e2929bd0a5b3682a0742bdacfbb73746907726bf"
+    },
+    {
+      "file": "app/motion-studio-desktop.zip",
+      "bytes": 647824,
+      "sha256": "4bd75b8981ece211501fa36b46b3b95b2acd273a598e6264c9c5ecb964122124"
+    },
+    {
+      "file": "app/motion-studio.mcpb",
+      "bytes": 647824,
+      "sha256": "4bd75b8981ece211501fa36b46b3b95b2acd273a598e6264c9c5ecb964122124"
+    },
+    {
+      "file": "app/THIRD_PARTY_NOTICES.txt",
+      "bytes": 19988,
+      "sha256": "36ab8d3c8f270c2f5ef33936b3a7ba8fcdcf1a8924da651892cb850c79d50a9e"
+    },
+    {
+      "file": "app/video-studio-skill.zip",
+      "bytes": 4359,
+      "sha256": "c9a4299b2753dc7d8298263468917073c7fb57073df36c44df418fcb34f8a3d9"
+    },
+    {
+      "file": "assets/fonts/be-vietnam-pro-latin-312fd8b5.woff2",
+      "bytes": 21168,
+      "sha256": "03d1b589cff172e1a670b3573e731d3380bc326f80cf83b0d3504e3188e2e074"
+    },
+    {
+      "file": "assets/fonts/be-vietnam-pro-latin-4994cf94.woff2",
+      "bytes": 21892,
+      "sha256": "b621f77d35f777023aa11ca524462d511b4b28a813adbc0e9d15a10fc61dfe4e"
+    },
+    {
+      "file": "assets/fonts/be-vietnam-pro-latin-7aec41b3.woff2",
+      "bytes": 22032,
+      "sha256": "9503dec2a7c532c8331e9600bcafea287a4fd208573b8668d85ab8d8de1863c7"
+    },
+    {
+      "file": "assets/fonts/be-vietnam-pro-latin-81428cb1.woff2",
+      "bytes": 22320,
+      "sha256": "7c5d0871188c09339a6eb46948420ed9b11f3d06ea3ff1c5d1cf41b06a3504e7"
+    },
+    {
+      "file": "assets/fonts/be-vietnam-pro-latin-900.woff2",
+      "bytes": 21760,
+      "sha256": "b7437222bf15d6be4394c13ec31188e1bf8b9be13e6c38dc4c18ad14511b4888"
+    },
+    {
+      "file": "assets/fonts/be-vietnam-pro-latin-a60e689c.woff2",
+      "bytes": 22152,
+      "sha256": "a193dd87699bd2e18ddf72dc271493ea82a23dad9f5c334d9f2a257b1e05fc30"
+    },
+    {
+      "file": "assets/fonts/be-vietnam-pro-latin-ext-0320066c.woff2",
+      "bytes": 13852,
+      "sha256": "33d57e5bd840b03921568e08d2be1082d453e55f1ba55f421e41a1aa54e12601"
+    },
+    {
+      "file": "assets/fonts/be-vietnam-pro-latin-ext-2fa54f70.woff2",
+      "bytes": 13752,
+      "sha256": "85a2008e6d5f2381a076d36d38771957b118683d0fff3029844737aff6b96a10"
+    },
+    {
+      "file": "assets/fonts/be-vietnam-pro-latin-ext-900.woff2",
+      "bytes": 13592,
+      "sha256": "8734a69a892ce1efb37eeda024affe833d99f4cde8fce0c0bbfb4afa5255e6b0"
+    },
+    {
+      "file": "assets/fonts/be-vietnam-pro-latin-ext-d380962c.woff2",
+      "bytes": 13056,
+      "sha256": "f7a2811e471c2973a1179ce39da3ad6bb8082381aa8d1535ccfcbc3d6d78a052"
+    },
+    {
+      "file": "assets/fonts/be-vietnam-pro-latin-ext-dfcc8f10.woff2",
+      "bytes": 13608,
+      "sha256": "20cc75daeaaaa0fa8af2b616b2de2b2900f0ce14ae8e9faa47d272cedd93827f"
+    },
+    {
+      "file": "assets/fonts/be-vietnam-pro-latin-ext-e3798f6b.woff2",
+      "bytes": 13548,
+      "sha256": "947d592eb7676914507ff68fc11fcf2cfdecd6ebaf0fa2af6047f66a63ea7d0f"
+    },
+    {
+      "file": "assets/fonts/be-vietnam-pro-vietnamese-3a44caf1.woff2",
+      "bytes": 12172,
+      "sha256": "86341610cbe907eecf461c9159c168d5efb52bb1a33963813a08f520555d8e66"
+    },
+    {
+      "file": "assets/fonts/be-vietnam-pro-vietnamese-900.woff2",
+      "bytes": 12072,
+      "sha256": "70b8feb4c47c137c77ba65d3ef73d5eeda852af1d7ce26f307d7853983948795"
+    },
+    {
+      "file": "assets/fonts/be-vietnam-pro-vietnamese-90dc6956.woff2",
+      "bytes": 12176,
+      "sha256": "97658c6f9a384f29a3005c3d96e2a0d1c810192cf68979071c290f5a377a9f99"
+    },
+    {
+      "file": "assets/fonts/be-vietnam-pro-vietnamese-add4c642.woff2",
+      "bytes": 12404,
+      "sha256": "26b241d1d5f489c8a65c1a3c4cdcdb48dd114a9ed7e0c0180182191f087cbe96"
+    },
+    {
+      "file": "assets/fonts/be-vietnam-pro-vietnamese-d2679bb5.woff2",
+      "bytes": 12468,
+      "sha256": "4f58af2d1c3e28a9ba14c51c82db2751d78344b75bdcb34de24a1031ebe59da6"
+    },
+    {
+      "file": "assets/fonts/be-vietnam-pro-vietnamese-f1ab404e.woff2",
+      "bytes": 11532,
+      "sha256": "dc085e2fba3414e5c5bf1e6172f921a9f81c5859946a4ed3d63c1e470d96a9e2"
+    },
+    {
+      "file": "assets/fonts/be-vietnam-pro.css",
+      "bytes": 7155,
+      "sha256": "dd6108b62a316bc0297054491ed386e0e934dfa303e9cf4626391d593e01bc39"
+    },
+    {
+      "file": "assets/fonts/OFL.txt",
+      "bytes": 4397,
+      "sha256": "6b7f8f73609a25ea78c891e34cf37b06f8a676b7ea986e941e43b009110f2a85"
+    },
+    {
+      "file": "build.mjs",
+      "bytes": 3944,
+      "sha256": "ee9783c7f0016f6dca1e4b85e16330877eb0e95e607e255bb2fbdd2272cbfba0"
+    },
+    {
+      "file": "CLAUDE.md",
+      "bytes": 3605,
+      "sha256": "ab66aaead9b74f9d5b057abdbc93965a148960fbb16ccbccf4054fc2d5db3fd5"
+    },
+    {
+      "file": "design-qa.md",
+      "bytes": 9363,
+      "sha256": "64c58e1aa62252156db0186ebd29ff95b9f4602b131d0025b4661c7b0ef63e83"
+    },
+    {
+      "file": "HANDOFF.md",
+      "bytes": 5733,
+      "sha256": "98d772fffa96dcee7ab9194c3c528cce30978df0a2d2ab1e26feb1320304f3bf"
+    },
+    {
+      "file": "handoff/desktop.png",
+      "bytes": 108668,
+      "sha256": "d4a3c46ef72f5a01086b2ba369e8af08908496d177a9275770e0cf2e8d854a66"
+    },
+    {
+      "file": "handoff/ipad-landscape.png",
+      "bytes": 149893,
+      "sha256": "74ceb5f8b4c60b0e23838c4ceb55555292095268bef7e1b65e2a8c4801ba108f"
+    },
+    {
+      "file": "handoff/ipad-portrait.png",
+      "bytes": 161396,
+      "sha256": "649fac3f83f68d987c944c035939673981e406927bd50792dc28b690a81a51b3"
+    },
+    {
+      "file": "handoff/ipad-properties.png",
+      "bytes": 189473,
+      "sha256": "684dd1f73de994cdf8c32f44967cbb004d5308209c0ddfa419b6e98fdf0b9faf"
+    },
+    {
+      "file": "handoff/verification.json",
+      "bytes": 1645,
+      "sha256": "bcf75f235dd3edcedf957e322b4dccdedc6698c37f45373a6f8720e0db5b784f"
+    },
+    {
+      "file": "manifest.json",
+      "bytes": 1105,
+      "sha256": "2c52a22d7f26e39569999774f7c020dc275e67176bea608a7cef30672002ca2b"
+    },
+    {
+      "file": "mcp/server.mjs",
+      "bytes": 8439,
+      "sha256": "d6f747c24b62f505c31bd65a8129c51302829c6a1a80f153dea8a5043de5a6e6"
+    },
+    {
+      "file": "mcp/store.mjs",
+      "bytes": 1335,
+      "sha256": "48379b257c86671a0dd86c6c6d9bbc16ac0a661739325daf39da8d9125664f0e"
+    },
+    {
+      "file": "package-lock.json",
+      "bytes": 59912,
+      "sha256": "b4d077f9b1c420f721b60f24d60fd14520bc82ab858d6ef0b91aed15206696b0"
+    },
+    {
+      "file": "package.json",
+      "bytes": 888,
+      "sha256": "024e944758ede560b8090e6c137088fb10b83a7c0570ef505bbcb48e07a685bf"
+    },
+    {
+      "file": "project.json",
+      "bytes": 629,
+      "sha256": "e56202884cca670b43fbd43ed7642c9164add698861ec6b6637d5a9ade4dc2e8"
+    },
+    {
+      "file": "README.md",
+      "bytes": 7771,
+      "sha256": "7ae7c9a908c68878bcb2f4542fdb3d251fdca0b5efe2d89999a4b375dc105ea5"
+    },
+    {
+      "file": "scripts/configure-claude.mjs",
+      "bytes": 973,
+      "sha256": "03728ec5aff3fb19d67cdebf362c4ed175005bf3f5760cd0e67920b6e01779fd"
+    },
+    {
+      "file": "scripts/package-handoff.mjs",
+      "bytes": 2810,
+      "sha256": "7b60f041f42236a71c1ff9e30421dbbbe9c3507a12344f76be5a863365fb24f2"
+    },
+    {
+      "file": "scripts/serve.mjs",
+      "bytes": 2185,
+      "sha256": "b9f2fc062c93ebd2cc65bb2431459bd4c27d79b2da882f92000f5e87a80122aa"
+    },
+    {
+      "file": "skill/video-studio/references/project-format.md",
+      "bytes": 2260,
+      "sha256": "c4a5537e77307b421685a1147b2abb2e2ad4eec364ebb04725722f981e77a728"
+    },
+    {
+      "file": "skill/video-studio/SKILL.md",
+      "bytes": 6619,
+      "sha256": "8a49fccb540630f91c909ea44160a20b160bdf7c556c81fbc97b6bd993a7172e"
+    },
+    {
+      "file": "src/app.mjs",
+      "bytes": 43067,
+      "sha256": "f6b48407a6fcd6c5e48f948a668a2ea7a990a96d0808cd4ad391845bdeb40496"
+    },
+    {
+      "file": "src/icons.mjs",
+      "bytes": 16654,
+      "sha256": "54510b56fea5cfc142efd72e1fa2aea20e9aaa30ed962c4e8c516fdf5e547098"
+    },
+    {
+      "file": "src/index.html",
+      "bytes": 7849,
+      "sha256": "779616cc2dafc8b760d7aae65b9d6f969fae8e7df0b66403e6e8373dc9ccf16f"
+    },
+    {
+      "file": "src/model.mjs",
+      "bytes": 4380,
+      "sha256": "d2294e4d5cd071f946eed5ffeffa72151753bbe067b4059e2ffe9758f6758cae"
+    },
+    {
+      "file": "src/renderer.mjs",
+      "bytes": 4891,
+      "sha256": "4ed58b6f0180b92d893ca3e8f1e1b79e245e9ac4145ecac0e7e6d960c2fb05df"
+    },
+    {
+      "file": "src/style.css",
+      "bytes": 23501,
+      "sha256": "efbf1f245386fa61314f83bc6f88c4a42c375c781fe638ac1a7bfa14674782d2"
+    },
+    {
+      "file": "src/tablet.css",
+      "bytes": 8312,
+      "sha256": "074b2d945fb4509c2a04dcdd493a39ff4cf753b9900129d475132bea35779e26"
+    },
+    {
+      "file": "START-HERE.md",
+      "bytes": 1828,
+      "sha256": "caac9dd3ac9fc1269c0d71a2dfa8e12612c9b3f1af44f00e441411468151afe4"
+    },
+    {
+      "file": "test/browser-qa.mjs",
+      "bytes": 12501,
+      "sha256": "64d2c7880014f4011e2451255b4153b0e6e66508648f7289460ff9d45575d8c3"
+    },
+    {
+      "file": "test/host-harness.mjs",
+      "bytes": 1460,
+      "sha256": "ec88361309245d8f7fb4a854b6e3a1ec7562b5df125ed5ff963dd14d7baf4bd0"
+    },
+    {
+      "file": "test/ipad-qa.mjs",
+      "bytes": 8110,
+      "sha256": "4b576ca15467e6f6d1d744b9b068a28c606cc40f936f918d311727e745cae5e1"
+    },
+    {
+      "file": "test/mcp.test.mjs",
+      "bytes": 4144,
+      "sha256": "1c9643ca7956479c20112c27fe1b38652da72953ea43321f0f765540bcf488ca"
+    },
+    {
+      "file": "test/model.test.mjs",
+      "bytes": 770,
+      "sha256": "ff30bccb9416cda65c4f5bb8c5e3408f8e30d296adb69309712bc1c5953ab6e5"
+    },
+    {
+      "file": "test/web.test.mjs",
+      "bytes": 1181,
+      "sha256": "5aaaa5b46a2048b5580abb4995cb88e03d247bf97603c83cc3fd98854b9493fc"
+    }
+  ]
+}

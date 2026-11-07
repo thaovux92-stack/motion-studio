@@ -1,0 +1,17 @@
+node_modules/
+.git/
+.env
+.env.*
+!.env.example
+.mcp.json
+.claude/settings.local.json
+.claude/worktrees/
+.restart
+.restart-container
+uploads/
+.motion-studio/
+coverage/
+test-results/
+*.log
+*.pem
+*.key

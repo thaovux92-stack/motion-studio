@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "motion-studio": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["/ABSOLUTE/PATH/motion-studio/mcp/server.mjs"]
+    }
+  }
+}

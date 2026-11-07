@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-07T05:26:19.074Z",
+  "scope": "Fresh ZIP extraction outside the thaoux repo; no database or owner cookie",
+  "install": "npm ci passed",
+  "build": "passed",
+  "unitTests": {
+    "passed": 5,
+    "failed": 0
+  },
+  "mcpConfig": "Generated absolute-path stdio config connected from another working directory; all 5 tools available",
+  "browser": {
+    "export": {
+      "width": 1080,
+      "height": 1920,
+      "duration": 2.0218,
+      "bytes": 239991
+    },
+    "videoImportAndSplit": "passed",
+    "browser": {
+      "ui": "passed",
+      "consoleErrors": []
+    },
+    "mcpHostDownload": "passed",
+    "mcpIframe": {
+      "handshake": "passed",
+      "uiSave": "passed",
+      "modelUpdate": "passed",
+      "promptMessage": "passed"
+    }
+  },
+  "ipad": {
+    "engine": "Chromium with iPad viewport and touch emulation; not physical Safari",
+    "checks": [
+      "820x1180: layout, touch targets, drawers passed",
+      "1180x820: layout, touch targets, drawers passed",
+      "768x1024: layout, touch targets, drawers passed",
+      "1024x768: layout, touch targets, drawers passed",
+      "744x1133: layout, touch targets, drawers passed",
+      "1024x1366: layout, touch targets, drawers passed",
+      "1366x1024: layout, touch targets, drawers passed",
+      "Touch input events: select, drag, trim, scrub, canvas move, undo, persistence, 720p export/save passed"
+    ],
+    "errors": []
+  },
+  "limits": [
+    "Chromium viewport/touch emulation, not physical iPad Safari",
+    "Actual Claude Code and Claude Desktop applications were not launched",
+    "Browser web and MCP project storage are separate"
+  ]
+}

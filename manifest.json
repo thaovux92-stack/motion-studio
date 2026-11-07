@@ -1,0 +1,18 @@
+{
+  "manifest_version": "0.3",
+  "name": "thaoux-motion-studio",
+  "display_name": "Motion Studio",
+  "version": "1.1.0",
+  "description": "Tạo và chỉnh video theo lớp ngay trong Claude Desktop: timeline, chữ, hiệu ứng và xuất video.",
+  "author": {"name": "thaoux"},
+  "server": {"type": "node", "entry_point": "mcp/server.mjs", "mcp_config": {"command": "node", "args": ["${__dirname}/mcp/server.mjs"]}},
+  "tools": [
+    {"name": "open_video_editor", "description": "Mở trình biên tập video tương tác"},
+    {"name": "get_video_project", "description": "Đọc trạng thái dự án video"},
+    {"name": "update_video_project", "description": "Chỉnh nội dung, hiệu ứng và timeline"},
+    {"name": "save_video_project", "description": "Lưu thay đổi trực tiếp từ giao diện"},
+    {"name": "import_video_asset", "description": "Nhập media từ tệp trên máy người dùng"}
+  ],
+  "keywords": ["video", "motion", "animation", "editor", "vietnamese"],
+  "compatibility": {"platforms": ["darwin", "win32", "linux"], "runtimes": {"node": ">=20.19.0"}}
+}
